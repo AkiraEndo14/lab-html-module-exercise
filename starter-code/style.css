@@ -1,3 +1,4 @@
+/*nav bar*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -12,10 +13,23 @@ nav a {
     text-decoration: none;  
 }
 
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
 .heart {
     padding: 0 20px;
 }
 
+/*firstblock*/
 .npmlogo {
     width: 70px;
     padding: 5px 10px;   
@@ -57,29 +71,6 @@ form > button {
     background-color: rgb(32, 101, 136);
     box-sizing: border-box;
 }
-
-.top-links {
-    display: inline-block;
-    float: right;
-    padding: 0;
-    margin: 0 20px 0 0;
-  }
-  
-  .top-links li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-.peoples {
-    eight: 270px;
-    width: 270px;
-} 
-
-.bearlogo {
-    width: 20px;
-    margin-right: 10px;
-}
-
 .header {
     background-image: url(images/city-scape.svg);
     height: 430px;
@@ -111,6 +102,77 @@ form > button {
     text-decoration: none;
     font-size: 20px;
 }
+
+.bearlogo {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+/*secondblock*/
+.second-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 53, 71);
+    color: white;
+    height: 480px;
+}
+.peoples {
+    height: 350px;
+    width: 420px;
+    padding: 10px 10px
+} 
+
+.second-block > div {
+    padding: 70px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+ul {
+    margin: 35px 0px;
+}
+
+.second-block div > ul > li {
+    margin: 0px 0px 5px 0px;
+}
+
+
+.button {
+    display: flex;
+    background-color: red;
+    color: white;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.orgs {
+    padding-top: 20px;
+}
+
+/*third-block*/
+
+.third-header {
+    background-image: url(images/forklift.svg);
+    height: 420px;
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 
