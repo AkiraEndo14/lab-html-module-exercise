@@ -82,11 +82,34 @@ form > button {
 
 .header {
     background-image: url(images/city-scape.svg);
-    height: 350px;
+    height: 430px;
 }
 
 .first-block {
+    padding-left: 150px;
+    padding-top: 50px;
     color: white;
+}
+
+.first-block > h1 {
+    font-size: 50px;
+}
+
+.first-block > div {
+    display: flex;
+    background-color: rgb(240, 146, 51);
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.first-block > div > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 
