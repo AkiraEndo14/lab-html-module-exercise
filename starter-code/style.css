@@ -29,6 +29,35 @@ nav a {
     padding: 0 20px;
 }
 
+/*button*/
+.button {
+    display: flex;
+    color: white;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.red {
+    background-color: red;
+}
+.navy{
+    background-color: rgb(39, 53, 71);
+}
+
+.orange {
+    background-color: rgb(240, 146, 51);
+}
+
+.orgs {
+    padding-top: 20px;
+}
+
+
 /*firstblock*/
 .npmlogo {
     width: 70px;
@@ -86,17 +115,6 @@ form > button {
     font-size: 50px;
 }
 
-.first-block > div {
-    display: flex;
-    background-color: rgb(240, 146, 51);
-    width: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 8px;
-    border-radius: 20px;
-    margin-top: 35px;
-}
-
 .first-block > div > a {
     color: white;
     text-decoration: none;
@@ -142,35 +160,51 @@ ul {
 }
 
 
-.button {
-    display: flex;
-    background-color: red;
-    color: white;
-    width: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 8px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.orgs {
-    padding-top: 20px;
-}
-
 /*third-block*/
 
 .third-header {
+    display: flex;
+    align-items: flex-start;
     background-image: url(images/forklift.svg);
-    height: 420px;
+    height: 480px;
     color: white;
+    padding: 90px;
+    box-sizing: border-box;
 }
 
+h3 {
+    font-size: 40px;
+}
 
+/*forth-block*/
+.forth-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+}
 
+h4 {
+    font-size: 30px;
 
+}
 
+/*fifth-block*/
+.fifth-block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: center;
+}
+h5 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+h6 {
+    color: red;
+}
 
 
 
